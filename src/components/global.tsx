@@ -4,6 +4,7 @@ export default createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 html {
+  height: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
@@ -11,6 +12,7 @@ html {
   overflow-y: scroll;
 }
 body {
+  height: 100%;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,6 +25,9 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+}
+#___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
 }
 article,
 aside,

@@ -7,7 +7,7 @@ import Instagram from "../../assets/instagram.svg"
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   background-color: #f5f0ed;
   /* Saved for later: #f7e6ef */
   color: #232323;
@@ -70,7 +70,7 @@ export const LandingPage = () => {
             rel="noreferrer noopener"
           >
             <InstagramIcon />
-            <InstagramText>doveliaxLashes</InstagramText>
+            <InstagramText>doveliaxlashes</InstagramText>
           </SocialLink>
         </Socials>
       </Footer>
