@@ -1,5 +1,5 @@
-import React from "react"
 import GlobalStyle from "../global"
+import React from "react"
 
 import styled from "styled-components"
 import Instagram from "../../assets/instagram.svg"
