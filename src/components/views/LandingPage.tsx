@@ -3,6 +3,7 @@ import React from "react"
 
 import styled from "styled-components"
 import Instagram from "../../assets/instagram.svg"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Container = styled.div`
   display: flex;
@@ -43,7 +44,7 @@ const Socials = styled.div`
   max-width: 800px;
 `
 
-const SocialLink = styled.a`
+const SocialLink = styled(OutboundLink)`
   display: flex;
   align-items: center;
   text-decoration: none;
